@@ -149,7 +149,7 @@ def predict(X, beta):
 
 
 if __name__ == '__main__':
-    data_path = r'E:\机器学习作业\课后习题答案\MachineLearning_Zhouzhihua_ProblemSets-master\ch3--线性模型\3.3\watermelon3_0_Ch.csv'
+    data_path = r'E:\机器学习作业\课后习题答案\ch3--线性模型\3.3\watermelon3_0_Ch.csv'
     #
     data = pd.read_csv(data_path).values
 
