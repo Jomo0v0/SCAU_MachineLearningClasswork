@@ -22,7 +22,7 @@ X_test_scaled = scaler.transform(X_test)
 
 # 3. 训练SVM模型
 print("开始训练SVM模型...")
-# 使用RBF核，C和gamma是重要参数[8](@ref)
+# 使用RBF核，C和gamma是重要参数[0.1, 1, 10等可调])
 svm_model = SVC(kernel='rbf', C=10, gamma='scale')
 svm_model.fit(X_train_scaled, y_train)
 print("模型训练完成！")
