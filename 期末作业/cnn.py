@@ -4,6 +4,7 @@ from tensorflow.keras import layers, models
 from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
 import time  # 导入time模块
+from sklearn.metrics import classification_report  # 新增
 
 # 1. 加载数据
 mnist = tf.keras.datasets.mnist
@@ -47,6 +48,14 @@ test_loss, test_acc = model.evaluate(X_test, y_test, verbose=2)
 end_time = time.time()  # 记录评估结束时间
 print(f"评估时间: {end_time - start_time:.2f} 秒")
 print(f'\n测试准确率: {test_acc}')
+
+# 6.1 分类报告
+print("生成分类报告...")
+start_time = time.time()
+y_pred = model.predict(X_test)
+y_pred_classes = y_pred.argmax(axis=1)
+print(classification_report(y_test, y_pred_classes))
+print(f"分类报告生成用时: {time.time() - start_time:.2f} 秒")
 
 # 7. 可视化训练过程
 plt.plot(history.history['accuracy'], label='training accuracy')

@@ -13,7 +13,7 @@ mnist = fetch_openml('mnist_784', version=1, as_frame=False, parser='auto')
 X, y = mnist.data, mnist.target.astype(int)
 print(f"数据加载完成，用时: {time.time() - start_time:.2f} 秒")
 
-# 2. 数据预处理（随机森林对数据尺度不敏感，通常无需标准化）
+# 2. 数据预处理
 start_time = time.time()
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 print(f"数据预处理完成，用时: {time.time() - start_time:.2f} 秒")
