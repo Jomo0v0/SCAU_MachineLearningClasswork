@@ -1,0 +1,8 @@
+('ming', 'jun', 'qiang', 'wu', [90, 80, 75, 66])
+TypeError
+('ming', 'jun', 'qiang', 'wu', [90, 100, 75, 66])
+True
+('ming', 'jun', 'qiang', 'wu')
+1
+1
+5

@@ -1,0 +1,19 @@
+2
+9
+['Apple', 'Banana', 'Melon', 'Grape']
+9
+['Apple', 'Banana', 'Grape']
+4 5 20
+<class 'tuple'>
+9
+12
+[1, 2, 3, 4, 5, 6, 7]
+3560020598205630145296938
+[-1, 2, 4, -5, 7]
+[-5, -3, -1, 2, 4, 6, 7]
+25
+16
+[1, 4, 9, 16, 25, 36, 49]
+140
+25
+['False', 'None', 'True', '__peg_parser__', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']

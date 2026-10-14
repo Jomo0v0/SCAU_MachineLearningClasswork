@@ -1,0 +1,15 @@
+hello world!
+It is a"dog"!
+It's a dog!
+hello world!
+It's a dog!
+hello world!
+hello Python!
+\	\
+\\\t\\
+True
+False
+t
+yth
+The first word is "hello", and the second word is "world"
+hello world!

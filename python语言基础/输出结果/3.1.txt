@@ -1,0 +1,32 @@
+36
+Too low
+1
+2
+3
+4
+5
+Hello
+Hello
+Hello
+Hello
+Done
+Yao 226
+Sharq 216
+AI 183
+Yao 226
+Sharq 216
+AI 183
+5050
+1
+2
+1
+2
+4
+1
+2
+3
+4
+['Apple', 'Watermelon', 'Banana']
+[1, 9, 25, 49, 81, 121, 169, 225, 289, 361]
+['AX', 'AY', 'AZ', 'BX', 'BY', 'BZ', 'CX', 'CY', 'CZ']
+['x=A', 'y=B', 'z=C']
