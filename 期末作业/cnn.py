@@ -64,3 +64,5 @@ plt.xlabel('Epoch')
 plt.ylabel('Accuracy')
 plt.legend(loc='lower right')
 plt.show()
+
+// 8. 保存模型
