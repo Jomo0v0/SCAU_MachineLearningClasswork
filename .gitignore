@@ -1,3 +1,9 @@
-venv
+# 虚拟环境 / 环境配置 —— 不要提交
+venv/
+.venv/
+env/
+ml_project/
+pyvenv.cfg
+__pycache__/
+*.py[cod]
 .DS_Store
-机器学习设计报告模板.docml_project/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_common.dll
